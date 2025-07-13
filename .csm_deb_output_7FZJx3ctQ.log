@@ -1,0 +1,6 @@
+Ign:1 http://archive.ubuntu.com/ubuntu noble InRelease
+Ign:2 http://security.ubuntu.com/ubuntu noble-security InRelease
+Ign:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Ign:2 http://security.ubuntu.com/ubuntu noble-security InRelease
+Ign:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Ign:2 http://security.ubuntu.com/ubuntu noble-security InRelease

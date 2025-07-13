@@ -1,6 +1,14 @@
 {% extends "learning_logs/base.html" %}
 
-{% block content %}
-    <h1>Learning Logs</h1>
-    <p>Keep track of your learning, for topics you are interested in.</p>
-{% endblock content %}
+
+{% block page_header %}
+    <div class="p-3 mb-4 bg-light border rounded-3">
+        <div class="container-fluid py-4">
+            <h1 class="display-3">Track your learning.</h1>
+            <p class="lead">Learning Task Logs / ToD0 app project</p>
+
+            <a class="btn btn-primary btn-lg mt-1"
+                href="{% url 'accounts:register' %}">Register &raquo;</a>
+        </div>
+    </div>
+{% endblock page_header %}
